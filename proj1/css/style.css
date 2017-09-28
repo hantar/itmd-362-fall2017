@@ -56,12 +56,9 @@ input {
 }
 
 input[type="number"] {
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> gh-pages
 }
+
 input:first-child {
   margin-left: 0;
 }
