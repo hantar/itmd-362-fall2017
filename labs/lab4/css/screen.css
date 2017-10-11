@@ -196,15 +196,93 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background: #eff2f3;
 }
 
 label {
+  display: inline;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 2.292em;
   display: block;
+  padding-bottom: .495em;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: .825em;
+}
+
+label, input, textarea {
+  font-family: 'Merriweather', serif;
+}
+
+input[type="submit"] {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.375em;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
 }
 
 /* ===== LAYOUT STYLES ====== */
 
+#content {
+  text-align: center;
+}
+
+input[type="email"] {
+  border: 0px;
+  border-bottom: 1px solid #525e61;
+  font-size: .875em;
+  background: none;
+  padding: 0px 4px;
+  margin-bottom: 2px;
+}
+
+input[type="submit"] {
+  background: #d7dcdd;
+  border: 0px;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
 /* ===== MODULAR STYLES ===== */
+
+.subtitle {
+  font-style: italic;
+  padding-bottom: 1.375em;
+}
+
+li {
+  padding-bottom: 1.375em;
+}
 
 /* ===== STATE STYLES ======= */
 
+input:active, input:focus {
+  outline: none;
+}
+
+input[type="email"]:active, input[type="email"]:focus {
+  border-bottom: 2px solid #2facb2;
+  margin-bottom: 1px;
+  color: #2facb2;
+}
+
+li:last-child {
+  padding-bottom: 0px;
+}
+
+.enabled {
+  background: #2dbe60 !important;
+  color: white;
+}
