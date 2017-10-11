@@ -1,0 +1,90 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+  background: #272121;
+  color: #F6E9E9;
+}
+
+.modal {
+  background: #363333;
+  height: 100%;
+  width: 100%;
+  max-width: 860px;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  box-shadow: 0px 0px 15px #000;
+  border: 3px solid #E16428;
+  padding: 15px;
+  overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: -5px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+fieldset {
+  border: 0;
+}
+
+input {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+  outline: none;
+  padding: 5px 7px;
+  background: #F6E9E9;
+  color: #E16428;
+  font-weight: 600;
+  border: 3px solid #363333;
+}
+
+input:hover, input:focus, input:active {
+  border: 3px solid #272121;
+}
+
+input[type="submit"] {
+  padding: 7px 10px;
+  background: #f6e9e9;
+  background: -moz-linear-gradient(top, #f6e9e9 0%, #f4d9d9 100%);
+  background: -webkit-linear-gradient(top, #f6e9e9 0%, #f4d9d9 100%);
+  background: linear-gradient(to bottom, #f6e9e9 0%, #f4d9d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e9e9', endColorstr='#f4d9d9', GradientType=0);
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #272121;
+  background: #f2c9b8;
+  background: -moz-linear-gradient(top, #f2c9b8 0%, #f6e9e9 100%);
+  background: -webkit-linear-gradient(top, #f2c9b8 0%, #f6e9e9 100%);
+  background: linear-gradient(to bottom, #f2c9b8 0%, #f6e9e9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2c9b8', endColorstr='#f6e9e9', GradientType=0);
+}
+
+input:first-child {
+  margin-left: 0;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
