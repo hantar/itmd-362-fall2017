@@ -22,7 +22,9 @@ body {
   padding: 15px;
   overflow-x: hidden;
 }
-
+/*
+** http://www.modularscale.com/?12&px&1.25
+*/
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family: 'Lato', 'Arial', sans-serif;
@@ -30,15 +32,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 45.776px;
 }
 
-h3 {
-  font-size: 1.5em;
+h4 {
+  font-size: 23.438px;
 }
 
 p {
   text-align: center;
+  font-size: 12px;
   font-family: 'Merriweather', 'Times New Roman', serif;
 }
 
@@ -111,7 +114,7 @@ input[type="submit"]:hover {
 .asterisk {
   color: #E16428;
   font-style: italic;
-  font-size: 10px;
+  font-size: 10.667px;
   padding-left: 10px;
 }
 
